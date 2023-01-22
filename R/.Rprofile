@@ -9,9 +9,9 @@ if (interactive()) {
 options(
    usethis.description = list(        # R package DESCRIPTION file info
       `Authors@R` = 'person("Collin",
-         "Berke",
-         email = "cberke@nebraskapublicmedia.org",
-         role = c("aut", "cre"))',
+                            "Berke", 
+                            email = "cberke@nebraskapublicmedia.org",
+                            role = c("aut", "cre"))',
       License = "MIT + file LICENSE",
       Version = "0.0.0.9000"
    )
