@@ -4,7 +4,7 @@ The following file documents the setup of macOS.
 
 # Update to current macOS
 
-Check computer uptime to see how long the machine has been running since its last reboot. Enter the following command into any terminal: `Cmd + Space` to open a system file fuzzy finder, then type 'Terminal'.
+Check computer uptime to see how long the machine has been running since its last reboot. Enter the following command into any terminal (`Cmd + Space` to open a system file fuzzy finder, then type 'Terminal'):
 
 ```bash
 uptime
@@ -56,36 +56,7 @@ Clean up the Dock of unnecessary shortcuts. Here is a list of the programs to in
 * Mac Finder
 * RStudio 
 * Google Chrome
-* Adobe Acrobat
 * iTerm2 
 
-To maximize the size of the workspace, navigate to the `System Settings` >> `Desktop & Dock`. Here turn on the `Automatically hide and show the Dock` setting.
-
-# Download Homebrew
-
-Install the [Homebrew](https://brew.sh/) package manager. This can be done by running the following in a terminal window:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-# Install iTerm2
-
-Run the following code chunk in a terminal window to install [iTerm2](https://iterm2.com/). Once installed, all further terminal activity will be done using iTerm2.
-
-```bash
-brew install --cask iterm2
-```
-
-# Install Oh My Zsh
-
-Run the following code chunk in a terminal window to install [Oh My Zsh](https://ohmyz.sh/). 
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-Use the following `.zshrc` for the config. Place this configuration file in the home directory of the machine. 
-
-
+To maximize the size of the workspace, set the dock to hide when it is not being used. Navigate to the `System Settings` >> `Desktop & Dock`. Here turn on the `Automatically hide and show the Dock` setting.
 
