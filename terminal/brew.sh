@@ -3,6 +3,7 @@
 # - iTerm2 
 # - Jump
 # - tmux
+# - git
 # - GitHub command line tool
 # - rig for R environment management
 # - R Studio
@@ -12,6 +13,7 @@ brew upgrade &&
 brew install --cask iterm2 &&
 brew install jump &&
 brew install tmux &&
+brew install git &&
 brew install gh && 
 brew tap r-lib/rig &&
 brew install --cask rig &&
