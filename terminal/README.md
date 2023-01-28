@@ -70,6 +70,6 @@ gh config set editor nvim
 
 # Configure tmux
 
-Transfer over the `terminal/.tmux.conf` file to the home directory. This file will contain all the configuration needed for tmux.
+Transfer the `terminal/.tmux.conf` file to the home directory. This file will contain all the configuration needed for tmux.
 
 
